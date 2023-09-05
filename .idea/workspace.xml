@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962e7607-cd23-4372-9038-a8f4245b593a" name="Changes" comment="1. move StringTest">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chap02/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="962e7607-cd23-4372-9038-a8f4245b593a" name="Changes" comment="2. create Calculator.plus">
+      <change afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -67,7 +69,7 @@
       <recent name="chap01" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CalculatorTest.plus">
+  <component name="RunManager" selected="Gradle.PasswordStrengthMeterTest">
     <configuration name="CalculatorTest.plus" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -82,6 +84,54 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;chap02.CalculatorTest.plus&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordStrengthMeterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chap02.PasswordStrengthMeterTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordStrengthMeterTest.name" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chap02.PasswordStrengthMeterTest.name&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -118,6 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PasswordStrengthMeterTest" />
+        <item itemvalue="Gradle.PasswordStrengthMeterTest.name" />
         <item itemvalue="Gradle.CalculatorTest.plus" />
         <item itemvalue="Gradle.StringTest.substring" />
       </list>
@@ -131,7 +183,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693921377103</updated>
-      <workItem from="1693921378186" duration="1350000" />
+      <workItem from="1693921378186" duration="1883000" />
     </task>
     <task id="LOCAL-00001" summary="1. test Junit5">
       <option name="closed" value="true" />
@@ -149,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693922017857</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2. create Calculator.plus">
+      <option name="closed" value="true" />
+      <created>1693922752502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693922752502</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +229,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. test Junit5" />
     <MESSAGE value="1. move StringTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. move StringTest" />
+    <MESSAGE value="2. create Calculator.plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. create Calculator.plus" />
   </component>
 </project>
