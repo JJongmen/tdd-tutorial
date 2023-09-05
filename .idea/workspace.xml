@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962e7607-cd23-4372-9038-a8f4245b593a" name="Changes" comment="2. create Calculator.plus">
-      <change afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="962e7607-cd23-4372-9038-a8f4245b593a" name="Changes" comment="4. 길이만 8글자 미만이고 나머지 조건은 충족하는 경우">
+      <change beforePath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +16,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,6 +124,54 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="PasswordStrengthMeterTest.meetsAllCriteria_Then_Strong" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chap02.PasswordStrengthMeterTest.meetsAllCriteria_Then_Strong&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordStrengthMeterTest.meetsOtherCriteria_except_for_Length_Then_Normal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chap02.PasswordStrengthMeterTest.meetsOtherCriteria_except_for_Length_Then_Normal&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="PasswordStrengthMeterTest.name" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -142,36 +196,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StringTest.substring" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;StringTest.substring&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.PasswordStrengthMeterTest" />
+        <item itemvalue="Gradle.PasswordStrengthMeterTest.meetsAllCriteria_Then_Strong" />
+        <item itemvalue="Gradle.PasswordStrengthMeterTest.meetsOtherCriteria_except_for_Length_Then_Normal" />
         <item itemvalue="Gradle.PasswordStrengthMeterTest.name" />
         <item itemvalue="Gradle.CalculatorTest.plus" />
-        <item itemvalue="Gradle.StringTest.substring" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +214,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693921377103</updated>
-      <workItem from="1693921378186" duration="1883000" />
+      <workItem from="1693921378186" duration="2259000" />
     </task>
     <task id="LOCAL-00001" summary="1. test Junit5">
       <option name="closed" value="true" />
@@ -209,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693922752502</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3. 모든 규칙을 충족하는 경우 테스트 통과">
+      <option name="closed" value="true" />
+      <created>1693923345953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693923345953</updated>
+    </task>
+    <task id="LOCAL-00005" summary="4. 길이만 8글자 미만이고 나머지 조건은 충족하는 경우">
+      <option name="closed" value="true" />
+      <created>1693923591663</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693923591663</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +277,8 @@
     <MESSAGE value="1. test Junit5" />
     <MESSAGE value="1. move StringTest" />
     <MESSAGE value="2. create Calculator.plus" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. create Calculator.plus" />
+    <MESSAGE value="3. 모든 규칙을 충족하는 경우 테스트 통과" />
+    <MESSAGE value="4. 길이만 8글자 미만이고 나머지 조건은 충족하는 경우" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. 길이만 8글자 미만이고 나머지 조건은 충족하는 경우" />
   </component>
 </project>
