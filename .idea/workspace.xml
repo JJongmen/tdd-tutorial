@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962e7607-cd23-4372-9038-a8f4245b593a" name="Changes" comment="" />
+    <list default="true" id="962e7607-cd23-4372-9038-a8f4245b593a" name="Changes" comment="9. 숫자 포함 조건만 충족하는 경우">
+      <change beforePath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeterTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +18,30 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -31,10 +57,156 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "C:/Users/JYP/IdeaProjects/tdd-tutorial/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="chap02" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="chap02" />
+      <recent name="chap01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.PasswordStrengthMeterTest">
+    <configuration name="CalculatorTest.plus" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chap02.CalculatorTest.plus&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordStrengthMeterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chap02.PasswordStrengthMeterTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordStrengthMeterTest.meetsAllCriteria_Then_Strong" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chap02.PasswordStrengthMeterTest.meetsAllCriteria_Then_Strong&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordStrengthMeterTest.meetsOtherCriteria_except_for_Length_Then_Normal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chap02.PasswordStrengthMeterTest.meetsOtherCriteria_except_for_Length_Then_Normal&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordStrengthMeterTest.name" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chap02.PasswordStrengthMeterTest.name&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.PasswordStrengthMeterTest" />
+        <item itemvalue="Gradle.PasswordStrengthMeterTest.meetsAllCriteria_Then_Strong" />
+        <item itemvalue="Gradle.PasswordStrengthMeterTest.meetsOtherCriteria_except_for_Length_Then_Normal" />
+        <item itemvalue="Gradle.PasswordStrengthMeterTest.name" />
+        <item itemvalue="Gradle.CalculatorTest.plus" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,8 +215,127 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693921377103</updated>
-      <workItem from="1693921378186" duration="2000" />
+      <workItem from="1693921378186" duration="3550000" />
     </task>
+    <task id="LOCAL-00001" summary="1. test Junit5">
+      <option name="closed" value="true" />
+      <created>1693921614096</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693921614096</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1. move StringTest">
+      <option name="closed" value="true" />
+      <created>1693922017857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693922017857</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2. create Calculator.plus">
+      <option name="closed" value="true" />
+      <created>1693922752502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693922752502</updated>
+    </task>
+    <task id="LOCAL-00004" summary="3. 모든 규칙을 충족하는 경우 테스트 통과">
+      <option name="closed" value="true" />
+      <created>1693923345953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693923345953</updated>
+    </task>
+    <task id="LOCAL-00005" summary="4. 길이만 8글자 미만이고 나머지 조건은 충족하는 경우">
+      <option name="closed" value="true" />
+      <created>1693923591663</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693923591663</updated>
+    </task>
+    <task id="LOCAL-00006" summary="5. 숫자를 포함하지 않고 나머지 조건은 충족하는 경우">
+      <option name="closed" value="true" />
+      <created>1693923923739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693923923739</updated>
+    </task>
+    <task id="LOCAL-00007" summary="6. 테스트 코드 리팩터링">
+      <option name="closed" value="true" />
+      <created>1693924233435</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693924233435</updated>
+    </task>
+    <task id="LOCAL-00008" summary="7. 값이 없는 경우">
+      <option name="closed" value="true" />
+      <created>1693925192162</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693925192162</updated>
+    </task>
+    <task id="LOCAL-00009" summary="8. 대문자를 포함하지 않고 나머지 조건을 충족하는 경우">
+      <option name="closed" value="true" />
+      <created>1693925519824</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693925519824</updated>
+    </task>
+    <task id="LOCAL-00010" summary="9. 숫자 포함 조건만 충족하는 경우">
+      <option name="closed" value="true" />
+      <created>1693925717253</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693925717253</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. test Junit5" />
+    <MESSAGE value="1. move StringTest" />
+    <MESSAGE value="2. create Calculator.plus" />
+    <MESSAGE value="3. 모든 규칙을 충족하는 경우 테스트 통과" />
+    <MESSAGE value="4. 길이만 8글자 미만이고 나머지 조건은 충족하는 경우" />
+    <MESSAGE value="5. 숫자를 포함하지 않고 나머지 조건은 충족하는 경우" />
+    <MESSAGE value="6. 테스트 코드 리팩터링" />
+    <MESSAGE value="7. 값이 없는 경우" />
+    <MESSAGE value="8. 대문자를 포함하지 않고 나머지 조건을 충족하는 경우" />
+    <MESSAGE value="9. 숫자 포함 조건만 충족하는 경우" />
+    <option name="LAST_COMMIT_MESSAGE" value="9. 숫자 포함 조건만 충족하는 경우" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/chap02/PasswordStrength.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
