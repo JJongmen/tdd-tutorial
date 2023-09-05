@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962e7607-cd23-4372-9038-a8f4245b593a" name="Changes" comment="8. 대문자를 포함하지 않고 나머지 조건을 충족하는 경우">
-      <change beforePath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrength.java" afterDir="false" />
+    <list default="true" id="962e7607-cd23-4372-9038-a8f4245b593a" name="Changes" comment="9. 숫자 포함 조건만 충족하는 경우">
       <change beforePath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap02/PasswordStrengthMeterTest.java" afterDir="false" />
     </list>
@@ -216,7 +215,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693921377103</updated>
-      <workItem from="1693921378186" duration="3458000" />
+      <workItem from="1693921378186" duration="3550000" />
     </task>
     <task id="LOCAL-00001" summary="1. test Junit5">
       <option name="closed" value="true" />
@@ -290,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693925519824</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="9. 숫자 포함 조건만 충족하는 경우">
+      <option name="closed" value="true" />
+      <created>1693925717253</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693925717253</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +324,8 @@
     <MESSAGE value="6. 테스트 코드 리팩터링" />
     <MESSAGE value="7. 값이 없는 경우" />
     <MESSAGE value="8. 대문자를 포함하지 않고 나머지 조건을 충족하는 경우" />
-    <option name="LAST_COMMIT_MESSAGE" value="8. 대문자를 포함하지 않고 나머지 조건을 충족하는 경우" />
+    <MESSAGE value="9. 숫자 포함 조건만 충족하는 경우" />
+    <option name="LAST_COMMIT_MESSAGE" value="9. 숫자 포함 조건만 충족하는 경우" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
