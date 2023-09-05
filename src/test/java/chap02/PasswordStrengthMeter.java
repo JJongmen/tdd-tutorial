@@ -12,17 +12,28 @@ public class PasswordStrengthMeter {
         if (!containsNum) {
             return PasswordStrength.NORMAL;
         }
+        boolean containsUpp = meetsContainingUppercaseCriteria(s);
+        if (!containsUpp) {
+            return PasswordStrength.NORMAL;
+        }
         return PasswordStrength.STRONG;
     }
 
-    private static boolean meetsContainingNumberCriteria(final String s) {
-        boolean containsNum = false;
+    private static boolean meetsContainingUppercaseCriteria(final String s) {
         for (final char ch : s.toCharArray()) {
-            if (ch >= '0' && ch <= '9') {
-                containsNum = true;
-                break;
+            if (Character.isUpperCase(ch)) {
+                return true;
             }
         }
-        return containsNum;
+        return false;
+    }
+
+    private static boolean meetsContainingNumberCriteria(final String s) {
+        for (final char ch : s.toCharArray()) {
+            if (ch >= '0' && ch <= '9') {
+                return true;
+            }
+        }
+        return false;
     }
 }
