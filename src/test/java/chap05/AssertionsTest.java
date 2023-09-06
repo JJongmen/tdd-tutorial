@@ -13,4 +13,14 @@ public class AssertionsTest {
         final LocalDate dateTime2 = LocalDate.now();
         assertEquals(dateTime1, dateTime2);
     }
+
+    @Test
+    void failMethod() {
+        try {
+            Authservice authService = new Authservice();
+            authService.authenticate(null, null);
+            fail();
+        } catch (IllegalArgumentException e) {
+        }
+    }
 }
