@@ -5,11 +5,16 @@ import java.time.YearMonth;
 
 public class ExpiryDateCalculator {
     public LocalDate calculateExpiryDate(final PayData payData) {
-        final int addedMonths = payData.getPayAmount() / 10_000;
+        final int addedMonths = getAddedMonths(payData.getPayAmount());
         if (payData.getFirstBillingDate() != null) {
             return expiryDateUsingFirstBillingDate(payData, addedMonths);
         }
         return payData.getBillingDate().plusMonths(addedMonths);
+    }
+
+    private static int getAddedMonths(final int payAmount) {
+        final int addedYears = payAmount / 100_000;
+        return addedYears * 12 + payAmount % 100_000 / 10_000;
     }
 
     private LocalDate expiryDateUsingFirstBillingDate(final PayData payData, final int addedMonths) {
