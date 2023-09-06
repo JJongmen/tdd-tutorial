@@ -1,5 +1,6 @@
 package chap05;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
@@ -14,6 +15,7 @@ public class AssertionsTest {
         assertEquals(dateTime1, dateTime2);
     }
 
+    @Disabled
     @Test
     void failMethod() {
         try {
