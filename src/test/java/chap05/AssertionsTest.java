@@ -23,4 +23,13 @@ public class AssertionsTest {
         } catch (IllegalArgumentException e) {
         }
     }
+
+    @Test
+    void assertThrowsTest() {
+        IllegalArgumentException thrown = assertThrows(IllegalArgumentException.class, () -> {
+            Authservice authService = new Authservice();
+            authService.authenticate(null, null);
+        });
+        assertTrue(thrown.getMessage().contains("id"));
+    }
 }
