@@ -1,6 +1,6 @@
-package chap07;
+package chap07.autodebit;
 
-public class JpaAutoDebitInfoRepository implements AutoDebitInfoRepository {
+public class StubAutoDebitInfoRepository implements AutoDebitInfoRepository {
     @Override
     public void save(final AutoDebitInfo info) {
 

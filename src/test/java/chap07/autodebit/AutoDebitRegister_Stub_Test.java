@@ -1,4 +1,4 @@
-package chap07;
+package chap07.autodebit;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

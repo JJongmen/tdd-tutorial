@@ -1,4 +1,4 @@
-package chap07;
+package chap07.autodebit;
 
 public class StubCardNumberValidator extends CardNumberValidator {
     private String invalidNo;
