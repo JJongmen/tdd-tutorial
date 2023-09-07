@@ -1,9 +1,13 @@
 package chap06;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -32,5 +36,25 @@ public class MathUtilsTest {
         File dataFile = new File("src/test/resources/datafile.txt");
         long sum = MathUtils.sum(dataFile);
         assertEquals(10L, sum);
+    }
+
+    @Test
+    void dataFileSumTest2() {
+        givenDataFile("src/test/resources/datafile2.txt", "1", "2", "3", "4");
+        File dataFile = new File("src/test/resources/datafile2.txt");
+        long sum = MathUtils.sum(dataFile);
+        assertEquals(10L, sum);
+    }
+
+    private static void givenDataFile(final String path, final String... lines) {
+        try {
+            Path dataPath = Paths.get(path);
+            if (Files.exists(dataPath)) {
+                Files.delete(dataPath);
+            }
+            Files.write(dataPath, Arrays.asList(lines));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
