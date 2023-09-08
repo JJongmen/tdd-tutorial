@@ -6,4 +6,8 @@ public class Product {
     public int getDefaultPoint() {
         return defaultPoint;
     }
+
+    public void setDefaultPoint(final int point) {
+        defaultPoint = point;
+    }
 }
