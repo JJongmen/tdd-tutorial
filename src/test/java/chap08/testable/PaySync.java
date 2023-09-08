@@ -18,6 +18,10 @@ public class PaySync {
         this.filePath = filePath;
     }
 
+    public void setPayInfoDao(final PayInfoDao payInfoDao) {
+        this.payInfoDao = payInfoDao;
+    }
+
     public void sync() throws IOException {
         Path path = Paths.get(filePath);
         final List<PayInfo> payInfos = Files.lines(path)

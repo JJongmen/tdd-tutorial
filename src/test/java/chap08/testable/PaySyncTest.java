@@ -1,17 +1,25 @@
 package chap08.testable;
 
+import chap08.payinfo.PayInfo;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PaySyncTest {
+    private MemoryPayInfoDao memoryDao = new MemoryPayInfoDao();
+
     @Test
-    void someTest() throws IOException {
+    void allDataSaved() throws IOException {
         final PaySync paySync = new PaySync();
+        paySync.setPayInfoDao(memoryDao);
         paySync.setFilePath("src/test/resources/c0111.csv");
 
         paySync.sync();
 
-        // 결과 검증
+        final List<PayInfo> savedInfos = memoryDao.getAll();
+        assertEquals(2, savedInfos.size());
     }
 }
