@@ -1,12 +1,12 @@
 package chap07.user;
 
 public class UserRegister {
-    private final StubWeakPasswordChecker passwordChecker;
+    private final WeakPasswordChecker passwordChecker;
     private final UserRepository userRepository;
     private final EmailNotifier emailNotifier;
 
-    public UserRegister(final StubWeakPasswordChecker passwordChecker,
-                        final UserRepository userRepository, final SpyEmailNotifier emailNotifier) {
+    public UserRegister(final WeakPasswordChecker passwordChecker,
+                        final UserRepository userRepository, final EmailNotifier emailNotifier) {
         this.passwordChecker = passwordChecker;
         this.userRepository = userRepository;
         this.emailNotifier = emailNotifier;
